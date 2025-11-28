@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LawBot - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body{background:#f5f7fa}
+    .hero{background:linear-gradient(135deg,#3a6186,#89253e);color:#fff;border-radius:16px;padding:60px 30px}
+    .feature-icon{font-size:2rem;color:#89253e}
+    .card{border:0;box-shadow:0 5px 15px rgba(0,0,0,0.08);border-radius:14px}
+    .cta-btn{background:linear-gradient(135deg,#3a6186,#89253e);color:#fff}
+    .cta-btn:hover{opacity:.95;color:#fff}
+  </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="/"><i class="fas fa-balance-scale"></i> LawBot</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="nav" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/query">Query</a></li>
+            <li class="nav-item"><a class="nav-link" href="/complaint">Complaint a Case</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+          </ul>
+          <div class="ms-lg-3 mt-2 mt-lg-0">
+            <select id="globalLanguageSelect" class="form-select form-select-sm">
+              <option value="">Auto Detect</option>
+              <option value="en">English</option>
+              <option value="hi">Hindi</option>
+              <option value="bn">Bengali</option>
+              <option value="ur">Urdu</option>
+              <option value="pa">Punjabi</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <div class="hero text-center">
+        <h1 class="fw-bold mb-3">Your Legal Assistant, Simplified</h1>
+        <p class="lead mb-4">Understand IPC/CrPC sections, get practical steps, and consult an AI assistant. Multilingual support included.</p>
+        <a href="/query" class="btn cta-btn btn-lg px-4"><i class="fa-solid fa-comments"></i> Start a Query</a>
+      </div>
+
+      <div class="row mt-5 g-4">
+        <div class="col-md-4">
+          <div class="card h-100 p-3">
+            <div class="card-body text-center">
+              <div class="feature-icon mb-2"><i class="fas fa-language"></i></div>
+              <h5 class="card-title">Multilingual Support</h5>
+              <p class="card-text">English, Hindi, Bengali, Urdu, and Punjabi with auto-detection.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-3">
+            <div class="card-body text-center">
+              <div class="feature-icon mb-2"><i class="fas fa-book"></i></div>
+              <h5 class="card-title">Legal Knowledge</h5>
+              <p class="card-text">Built-in IPC and CrPC section lookups with summaries and steps.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-3">
+            <div class="card-body text-center">
+              <div class="feature-icon mb-2"><i class="fas fa-robot"></i></div>
+              <h5 class="card-title">AI Assistance</h5>
+              <p class="card-text">Use Google AI Studio (Gemini) for free-form legal questions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center text-muted py-4">© <span id="yr"></span> LawBot. For information only, not legal advice.</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.getElementById('yr').textContent=new Date().getFullYear();
+      // Initialize global language selector from localStorage and persist changes
+      (function(){
+        const sel = document.getElementById('globalLanguageSelect');
+        const saved = localStorage.getItem('lawbot_lang') || '';
+        if(sel) sel.value = saved;
+        sel?.addEventListener('change', ()=>{
+          localStorage.setItem('lawbot_lang', sel.value);
+          // broadcast to any listeners (e.g., Query page)
+          window.dispatchEvent(new CustomEvent('lawbot-lang-changed', { detail: sel.value }));
+        });
+      })();
+    </script>
+  </body>
+  </html>
