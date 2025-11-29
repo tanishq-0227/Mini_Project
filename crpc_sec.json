@@ -1,0 +1,56 @@
+{
+  "CrPC 154": {
+    "title": "Information in cognizable cases",
+    "keywords": ["file fir", "report crime", "complaint police", "write fir"],
+    "summary": "Every information relating to a cognizable offence shall be recorded by the police and a copy shall be given to the informant.",
+    "steps": [
+      "Approach the nearest police station.",
+      "Explain the incident clearly with time and location.",
+      "Insist on filing an FIR under CrPC 154.",
+      "Ask for a free copy of the FIR."
+    ]
+  },
+  "CrPC 41": {
+    "title": "When police may arrest without warrant",
+    "keywords": ["arrest without warrant", "police arrest", "taken by police"],
+    "summary": "A police officer may arrest a person without warrant if the officer believes a cognizable offence has been committed.",
+    "steps": [
+      "Check if arrest is justified and falls under cognizable offence.",
+      "You can ask for reason and arrest memo.",
+      "Inform relatives or lawyer immediately.",
+      "Apply for bail if eligible."
+    ]
+  },
+  "CrPC 91": {
+    "title": "Summons to produce document or other thing",
+    "keywords": ["document summon", "court summon file", "evidence request"],
+    "summary": "A court or officer may summon any person to produce documents or evidence required for investigation or trial.",
+    "steps": [
+      "Respond to the summon with required documents.",
+      "Consult a lawyer if unsure about the document.",
+      "Submit proof within time mentioned."
+    ]
+  },
+  "CrPC 125": {
+    "title": "Order for maintenance of wives, children and parents",
+    "keywords": ["wife maintenance", "child support", "parent maintenance", "maintenance order"],
+    "summary": "A person with sufficient means is bound to maintain his wife, minor children, or aged parents if they cannot support themselves.",
+    "steps": [
+      "File a petition under CrPC 125 in Magistrate’s court.",
+      "Submit income proof and need for support.",
+      "Attend hearings and provide statements.",
+      "Get maintenance order from court."
+    ]
+  },
+  "CrPC 200": {
+    "title": "Examination of complainant",
+    "keywords": ["magistrate complaint", "private complaint", "court complaint"],
+    "summary": "A Magistrate takes cognizance of an offence and examines the complainant and witnesses before issuing summons.",
+    "steps": [
+      "Submit written complaint to the Magistrate.",
+      "Ensure clear facts and witness details.",
+      "Attend personal hearing for examination.",
+      "Wait for summons to be issued."
+    ]
+  }
+}

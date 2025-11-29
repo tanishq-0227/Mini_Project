@@ -1,0 +1,83 @@
+{
+    "CrPC 154": {
+        "title": "Information in cognizable cases",
+        "keywords": [
+            "FIR",
+            "police report",
+            "complaint",
+            "cognizable offense"
+        ],
+        "summary": "When information about a cognizable offense is given orally to a police officer, it shall be reduced to writing, read over to the informant, and signed by the person giving it. This written document is known as the First Information Report (FIR).",
+        "steps": [
+            "Visit the police station having jurisdiction over the area where the crime occurred.",
+            "Provide detailed information about the incident to the officer in charge.",
+            "Ensure all important details are recorded in the FIR.",
+            "Get a free copy of the FIR as it is your right.",
+            "If police refuse to register FIR, approach the Superintendent of Police or the Magistrate."
+        ]
+    },
+    "CrPC 161": {
+        "title": "Examination of witnesses by police",
+        "keywords": [
+            "witness statement",
+            "police investigation",
+            "testimony"
+        ],
+        "summary": "Any police officer investigating a case may examine any person who appears to be acquainted with the facts and circumstances of the case. Such person is bound to answer all questions truthfully, except those that would expose them to criminal charges.",
+        "steps": [
+            "Cooperate with the investigating officer when called for questioning.",
+            "Answer questions truthfully and completely.",
+            "You can refuse to answer questions that may incriminate you.",
+            "Request for your statement to be recorded accurately.",
+            "You have the right to give your statement in the presence of a lawyer."
+        ]
+    },
+    "CrPC 164": {
+        "title": "Recording of confessions and statements",
+        "keywords": [
+            "confession",
+            "magistrate",
+            "statement recording"
+        ],
+        "summary": "A Metropolitan Magistrate or Judicial Magistrate may record any confession or statement made to them during the course of an investigation. The magistrate must ensure the confession is voluntary and inform the person that they are not bound to make a confession.",
+        "steps": [
+            "The magistrate will ensure you are making the statement voluntarily.",
+            "The magistrate must explain that you are not obligated to make a confession.",
+            "The confession must be recorded in the manner prescribed by law.",
+            "The magistrate will not record your confession if it appears to be coerced.",
+            "After recording, the magistrate will forward the statement to the Magistrate who has jurisdiction over the case."
+        ]
+    },
+    "CrPC 41": {
+        "title": "When police may arrest without warrant",
+        "keywords": [
+            "arrest",
+            "without warrant",
+            "police powers"
+        ],
+        "summary": "A police officer may arrest a person without a warrant in certain circumstances, such as when a cognizable offense is committed in the officer's presence, or when there is reasonable suspicion that the person has committed a cognizable offense punishable with imprisonment.",
+        "steps": [
+            "Police must inform you of the grounds of arrest.",
+            "You have the right to inform a friend or relative about your arrest.",
+            "You have the right to meet a lawyer during interrogation.",
+            "Police must produce you before a magistrate within 24 hours of arrest.",
+            "You have the right to medical examination after arrest."
+        ]
+    },
+    "CrPC 436": {
+        "title": "In what cases bail to be taken",
+        "keywords": [
+            "bail",
+            "bailable offense",
+            "release"
+        ],
+        "summary": "When any person other than a person accused of a non-bailable offense is arrested or detained without warrant, or appears before a court, they may be released on bail. If the person is indigent and cannot furnish bail, the court may release them on personal recognizance.",
+        "steps": [
+            "Apply for bail at the police station for bailable offenses.",
+            "If denied at the police station, approach the court for bail.",
+            "Provide necessary sureties or bond amount as required.",
+            "Comply with all conditions imposed by the court for bail.",
+            "Attend all court hearings as required by bail conditions."
+        ]
+    }
+}

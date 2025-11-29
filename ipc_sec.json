@@ -1,0 +1,152 @@
+{
+    "IPC 302": {
+        "title": "Murder",
+        "keywords": [
+            "murder",
+            "killed",
+            "homicide",
+            "death"
+        ],
+        "summary": "Punishment for murder. Whoever commits murder shall be punished with death or life imprisonment.",
+        "steps": [
+            "Immediately inform the police (Dial 100).",
+            "Provide details of the incident, location, and persons involved.",
+            "Cooperate during investigation and autopsy.",
+            "Hire a lawyer for representation."
+        ]
+    },
+    "IPC 376": {
+        "title": "Rape",
+        "keywords": [
+            "rape",
+            "sexual assault",
+            "molestation"
+        ],
+        "summary": "Defines and punishes rape. Minimum punishment of 10 years up to life imprisonment.",
+        "steps": [
+            "Go to the nearest police station or hospital.",
+            "File an FIR under Section 376.",
+            "Undergo a medical examination immediately.",
+            "Request for protection if needed."
+        ]
+    },
+    "IPC 354": {
+        "title": "Assault or criminal force to woman with intent to outrage her modesty",
+        "keywords": [
+            "touched",
+            "molested",
+            "harassed",
+            "groped"
+        ],
+        "summary": "Punishment for assault or criminal force to a woman to outrage her modesty.",
+        "steps": [
+            "File FIR at the police station.",
+            "Provide details about the incident.",
+            "Submit any video/photo or witness statements.",
+            "Ask for women officer if you prefer."
+        ]
+    },
+    "IPC 498A": {
+        "title": "Husband or relative of husband of a woman subjecting her to cruelty",
+        "keywords": [
+            "domestic violence",
+            "dowry",
+            "husband abuse",
+            "tortured"
+        ],
+        "summary": "Punishment for cruelty by husband or relatives.",
+        "steps": [
+            "Visit a police station or women's cell.",
+            "File FIR under IPC 498A.",
+            "Seek protection through Protection Officer or NGO.",
+            "Keep evidence like messages, injuries, or audio."
+        ]
+    },
+    "IPC 509": {
+        "title": "Word, gesture or act intended to insult the modesty of a woman",
+        "keywords": [
+            "catcall",
+            "whistling",
+            "insulted",
+            "abused verbally"
+        ],
+        "summary": "Insulting a woman's modesty by words or gestures is punishable up to 3 years.",
+        "steps": [
+            "Note time and location of the incident.",
+            "File complaint under IPC 509 at local police.",
+            "Seek protection or complaint via women's helpline."
+        ]
+    },
+    "IPC 323": {
+        "title": "Voluntarily causing hurt",
+        "keywords": [
+           "beaten", "hurt", "slapped", "punched", "attacked", "physical abuse", "hit by someone"
+
+        ],
+        "summary": "Causing hurt voluntarily is punishable with up to 1 year or fine or both.",
+        "steps": [
+            "File FIR at police station with incident details.",
+            "Get medical certificate to prove injury.",
+            "Identify and name attacker if possible."
+        ]
+    },
+    "IPC 324": {
+        "title": "Voluntarily causing hurt by dangerous weapons",
+        "keywords": [
+            "knife",
+            "acid attack",
+            "blade",
+            "dangerous object"
+        ],
+        "summary": "Causing hurt using dangerous weapons is a serious crime punishable with up to 3 years.",
+        "steps": [
+            "Report immediately to the police.",
+            "Seek medical attention and preserve reports.",
+            "Provide weapon info or witness data if available."
+        ]
+    },
+    "IPC 379": {
+        "title": "Theft",
+        "keywords": [
+            "theft",
+            "stolen",
+            "robbed",
+            "item missing"
+        ],
+        "summary": "Punishment for theft with imprisonment up to 3 years or fine or both.",
+        "steps": [
+            "File FIR with details of the stolen item.",
+            "Mention location, time, and any suspect.",
+            "Share proof (CCTV, receipts, etc.) if available."
+        ]
+    },
+    "IPC 420": {
+        "title": "Cheating and dishonestly inducing delivery of property",
+        "keywords": [
+            "cheated",
+            "fraud",
+            "scam",
+            "false promise"
+        ],
+        "summary": "Punishment for cheating and fraud. Up to 7 years imprisonment and fine.",
+        "steps": [
+            "File complaint with evidence of cheating.",
+            "Submit transaction proof, emails, call logs.",
+            "Mention all details about the accused."
+        ]
+    },
+    "IPC 506": {
+        "title": "Punishment for criminal intimidation",
+        "keywords": [
+            "threat",
+            "intimidated",
+            "blackmailed"
+        ],
+        "summary": "Threatening someone with injury or harm is punishable under IPC 506.",
+        "steps": [
+            "Write a complaint mentioning the threat.",
+            "Attach screenshots, call recordings, etc.",
+            "File FIR at your local police station."
+        ]
+    }
+}
