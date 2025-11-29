@@ -1,5 +1,0 @@
-Flask
-gunicorn
-langdetect
-google-generativeai
-reportlab
